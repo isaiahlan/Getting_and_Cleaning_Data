@@ -1,0 +1,12 @@
+Getting and Cleaning Data
+
+This is Isaiah Lan's CodeBook.md document for the "Getting and Cleaning Data" Course project from John Hopkins, Bloomberg School of Health. 
+
+The following Dataset used for this course can be found here: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+
+I created the run_analysis.R script to preform the data clean up script for the assignment.
+
+You will find that the clean data (tidydata that I created) merges both training and test sets provided from the coursera assignment.
+The data extracts the measurements on the mean and standard deviation for each measurement. 
+Applies descriptive activity names to name the activities in the data set (e.g. walking, standing, laying).
+Creates another tidy data set with the average of each measurement for each activity/subject
